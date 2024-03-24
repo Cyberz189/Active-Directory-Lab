@@ -26,7 +26,17 @@ The Detection Lab project aimed to establish a controlled environment for simula
 
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+![IMG_8628](https://github.com/Cyberz189/Active-Directory-Lab/assets/163569052/19f275eb-d456-4438-a234-dd7dabb07780)
+![IMG_8629](https://github.com/Cyberz189/Active-Directory-Lab/assets/163569052/8bd81db9-2a15-407f-8694-a19f97113bc2)
+![IMG_8630](https://github.com/Cyberz189/Active-Directory-Lab/assets/163569052/77a8517e-4017-4f68-bb29-7913555ea446)
+![IMG_8631](https://github.com/Cyberz189/Active-Directory-Lab/assets/163569052/a48efdb9-8d1b-4102-b347-f04d3318b6fb)
+
+
+Begin by accessing Active Directory and navigating to the Sales organizational unit (OU). Then, utilize delegate control to set specific permissions, dictating which features can be controlled within that OU. Finally, verify and confirm the user who is to be granted these permissions.
+
+
+
+
 
 Every screenshot should have some text explaining what the screenshot is about.
 
