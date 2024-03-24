@@ -42,10 +42,16 @@ This command forces a password reset, allowing "Phillip," who controls password 
 
 This command enables user "Sophie" to change her password to her preference during her next logon.
 
+![IMG_8637](https://github.com/Cyberz189/Active-Directory-Lab/assets/163569052/9ec3e744-6eef-4cd2-84e3-e10890eb6eec)
+
+![IMG_8638](https://github.com/Cyberz189/Active-Directory-Lab/assets/163569052/f0c762ca-4853-4975-8f26-10dea599653d)
+
+![IMG_8639](https://github.com/Cyberz189/Active-Directory-Lab/assets/163569052/0cb6410a-eefe-497e-acf5-130dcbf709b9)
+
+Here we can observe the commands working successfully, prompting "Sophie" to change her password immediately upon logging on.
 
 
-Every screenshot should have some text explaining what the screenshot is about.
+![IMG_8640](https://github.com/Cyberz189/Active-Directory-Lab/assets/163569052/953f4218-a566-407b-896f-32108040b231)
 
-Example below.
+Additionally, we can confirm that logging into "Sophie's" account proceeded smoothly with no issues on either end.
 
-*Ref 1: Network Diagram*
