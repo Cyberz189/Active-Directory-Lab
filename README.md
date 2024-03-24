@@ -30,12 +30,12 @@ The Detection Lab project aimed to establish a controlled environment for simula
 ![IMG_8631](https://github.com/Cyberz189/Active-Directory-Lab/assets/163569052/a48efdb9-8d1b-4102-b347-f04d3318b6fb)
 
 
-Begin by accessing Active Directory and navigating to the Sales organizational unit (OU). Then, utilize delegate control to set specific permissions, dictating which features can be controlled within that OU. Finally, verify and confirm the user who is to be granted these permissions.
+Commence by accessing Active Directory and navigating to the Sales organizational unit (OU). Utilize delegate control to define precise permissions, specifying which features can be managed within that OU. Confirm the user, Phillip, who is to be granted these permissions. In this case, Phillip was granted the ability to reset user passwords and enforce password changes at the next logon.
 
 ![IMG_8632](https://github.com/Cyberz189/Active-Directory-Lab/assets/163569052/1be5d255-23f6-483e-8792-ef761be3d1c9)
 ![IMG_8636](https://github.com/Cyberz189/Active-Directory-Lab/assets/163569052/2fb8f6fe-3e4f-487f-9b10-c7338058defd)
 
-By using RDP to remotely log into User Phillip who was granted permissions over the Sales Ou, and then opening powershell to begin the process of changing a another users password. The targeted user whos getting their password reset is "sophie" 
+By using RDP to remotely log into User Phillip who was granted permissions over the Sales Ou, and then opening powershell to begin the process of changing a another users password. The targeted user whos getting their password reset is "sophie" by using the commands Set-ADAccountPassword sophie -Reset -NewPassword (Read-Host -AsSecureString -Prompt 'New Password') -Verbose, this command forces a password reset and allows "Phillip" who controls password reset permissions on the sale OU to set a new password. Following this command Set-ADUser -ChangePasswordAtLogon $true -Identity sophie -Verbose is used to allow user "Sophie" to change her password to her liking on her next logon.
 
 
 
